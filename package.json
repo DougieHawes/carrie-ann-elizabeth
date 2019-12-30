@@ -1,0 +1,34 @@
+{
+  "name": "carrie-ann-elizabeth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "author": "Dougie Hawes",
+  "license": "ISC",
+  "dependencies": {
+    "howler": "^2.1.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}

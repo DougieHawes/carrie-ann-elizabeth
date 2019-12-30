@@ -1,0 +1,42 @@
+h1 {
+  color: white;
+  font-family: 'Monoton', cursive;
+  font-size: 35px;
+  font-weight: 100;
+  line-height: 35px;
+  animation: neon 2.1s ease-in-out infinite alternate;
+}
+@keyframes neon {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px #fff, 0 0 10px #FF1177, 0 0 17px #FF1177, 0 0 20px #FF1177, 0 0 25px #FF1177, 0 0 37px #FF1177;
+  }
+}
+.nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.nav-item {
+  padding-top: 7px;
+}
+.nav-item h2 {
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 100;
+  transition: color 0.7s ease-in-out;
+}
+.nav-item h2:hover {
+  color: gold;
+}
+@media only screen and (min-width: 890px) {
+  h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .nav-item h2 {
+    font-size: 21px;
+  }
+}

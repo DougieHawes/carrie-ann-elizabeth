@@ -1,0 +1,44 @@
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+}
+.App {
+  background-size: auto 100vh;
+  background-image: url('../src/media/images/layout/caz01.jpg');
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+.routes {
+  color: #fff;
+  position: absolute;
+  top: 95px;
+  width: 100%;
+}
+.routes h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+}
+.MusicPlayer {
+  background-image: radial-gradient(#f8f8ff, #c0d1d5);
+  border-radius: 14px;
+  box-shadow: 3px 6px 7px #666;
+  color: #666;
+  display: inline-block;
+  font-family: sans-serif;
+  height: 424px;
+  position: relative;
+  width: 300px;
+}
+@media only screen and (min-width: 1108px) {
+  .App {
+    background-size: 100vw auto;
+  }
+}
